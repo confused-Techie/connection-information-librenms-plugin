@@ -56,6 +56,9 @@ WHERE device_id = $switchDeviceId";
       $switchDeviceQueryResult = dbFetchRows($switchDeviceQuery);
 
       echo('<div class="row"><div class="col-sm-4">Switch IP Address</div>');
+      echo('<div class="col-sm-8"><a href="ssh://'.$switchDeviceQueryResult[0]["hostname"].'">'.$switchDeviceQueryResult[0]["hostname"].'</a></div></div>');
+
+      echo('<div class="row"><div class="col-sm-4">Switch Name</div>');
       echo('<div class="col-sm-8">'.$switchDeviceQueryResult[0]["sysName"].'</div></div>');
     }
     echo('</div></div></div></div>');
