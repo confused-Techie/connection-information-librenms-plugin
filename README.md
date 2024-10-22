@@ -7,3 +7,13 @@ Displays the following data:
   * Switch Port
   * Switch IP Address
   * Switch Name
+
+## Install
+
+1. Copy the `ConnectionInformation` directory to your `librenms/html/plugins` directory.
+2. In LibreNMS go to `Overview`->`Plugins`->`Plugin Admin`
+3. Click enable on `VLANs`
+
+## Usage
+
+When visiting a device overview page the `Connection Information` box will appear if any data was able to be found.
