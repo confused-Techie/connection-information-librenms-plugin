@@ -12,7 +12,7 @@ Displays the following data:
 
 1. Copy the `ConnectionInformation` directory to your `librenms/html/plugins` directory.
 2. In LibreNMS go to `Overview`->`Plugins`->`Plugin Admin`
-3. Click enable on `VLANs`
+3. Click enable on `Connection Information`
 
 ## Usage
 
